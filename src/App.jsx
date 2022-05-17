@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { Route, Routes } from "react-router-dom"
-import RatingContext from "./Contexts/ratingContext"
+import { RatingContext } from "./Contexts/ratingContext"
 import Rating from "./Rating"
 import Sucesso from "./Sucesso"
 
