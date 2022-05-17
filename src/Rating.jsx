@@ -20,7 +20,7 @@ export default function Rating(){
       <div className="flex flex-col w-96 bg-gray-800 rounded-2xl p-6">
         <div className="rounded-full bg-gray-700 px-2 text-orange-400 py-2 w-8 text-center font-bold mb-3"><FaStar /></div>
         <h1 className="text-2xl text-white mb-3 font-lato italic">Como você nos avalia?</h1>
-        <p className="text-gray-500 mb-4">Por favor, deixe-nos saber como foi sua experiência com nosso suporte. Todo feedback é extremamente importante para que possamos melhorar.</p>
+        <p className="text-gray-500 mb-4">Por favor, deixe-nos saber como foi sua experiência com nosso suporte . Todo feedback é extremamente importante para que possamos melhorar.</p>
         <form onSubmit={avalia}>
           <div className="flex justify-between mb-6">
             {rating == 1
