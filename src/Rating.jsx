@@ -1,7 +1,7 @@
 
 import {FaStar} from "react-icons/fa"
 import { Link } from "react-router-dom"
-import { RatingContext } from "./Contexts/ratingContext"
+import { RatingContext } from "./Contexts/RatingContext"
 import { useContext } from "react"
 
 export default function Rating(){
